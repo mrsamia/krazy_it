@@ -1,0 +1,17 @@
+.homePageWrapper{
+    background-color: #FFC400;
+}
+
+
+
+
+.bttn{
+    width: 182px;
+    height: 69px;
+    font-size: 20.83px;
+    font-weight: 500;
+    background-color: #00BFCB;
+    color: White;
+    border: none;
+    border-radius: 7px;
+}
