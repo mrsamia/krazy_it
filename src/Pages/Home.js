@@ -1,32 +1,19 @@
 import React from 'react';
 import '../Styles/home.css';
 import '../Styles/common.css';
-import HeroHeading from '../Components/HeroHeading';
 import Subtitle from '../Components/Subtitle';
 import OutlineButton from '../Components/OutlineButton';
-import FilledButton from '../Components/FilledButton';
+import Heading from '../Components/Heading';
+import SubHeading from '../Components/SubHeading';
+import HeroSection from '../Components/HeroSection';
+import Card from '../Components/Card';
+import CardMapping from '../Components/CardMapping';
 
 function Home(props) {
     return (
         <div >
-            <section className='sectionWrapper'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-6'>
-                            <HeroHeading name="First I Wanted to be a veterinarian" />
-                            <Subtitle className="white_Sub_Title" content="Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words. " />
-                            <div className='d-flex '>
-                                <FilledButton name="Contact Us" />
-                                <div className='btn_pad'>
-                                    <OutlineButton name="Our Service" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className='col-6 d-flex justify-content-end'>
-                            <img className='img_1' src={require('../images/img-1.png')} />
-                        </div>
-                    </div>
-                </div>
+            <section className='HeroSectionWrapper'>
+               <HeroSection/>
             </section>
             <section className='container'>
                 <div className='row as'>
@@ -36,8 +23,16 @@ function Home(props) {
                         <OutlineButton name="Our Service" />
                     </div>
                     <div className='col-6 d-flex justify-content-end'>
-                        <img src={require('../images/img-2.png')}/>
+                        <img src={require('../images/img-2.png')} />
                     </div>
+                </div>
+            </section>
+            <section className='sectionWrapper'>
+                <div className='container'>
+                    <Heading className="white_heading pt_100" name="Title Here" />
+                    <SubHeading className="white_sub_heading text-center" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
+                  <Card/>
+                  <CardMapping/>
                 </div>
             </section>
         </div>

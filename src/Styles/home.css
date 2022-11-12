@@ -1,6 +1,10 @@
-.sectionWrapper{
+.HeroSectionWrapper{
     background-color: #FFC400;
     padding-top: 193px;
+}
+
+.sectionWrapper{
+    background-color: #FFC400;
 }
 .img_1{
     width: 419px;
@@ -12,8 +16,13 @@
 .as{
     padding-top: 140px;
     font-size: 50px;
+    padding-bottom: 216px;
 }
 .a{
     padding-top: 76px;
     font-size: 50px;
+}
+.pt_100{
+    padding-top: 101px;
+    text-align: center;
 }
