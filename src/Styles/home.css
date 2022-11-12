@@ -1,17 +1,19 @@
-.homePageWrapper{
+.sectionWrapper{
     background-color: #FFC400;
+    padding-top: 193px;
 }
-
-
-
-
-.bttn{
-    width: 182px;
-    height: 69px;
-    font-size: 20.83px;
-    font-weight: 500;
-    background-color: #00BFCB;
-    color: White;
-    border: none;
-    border-radius: 7px;
+.img_1{
+    width: 419px;
+    height: 604px;
+}
+.pl_35{
+    padding-left: 35px;
+}
+.as{
+    padding-top: 140px;
+    font-size: 50px;
+}
+.a{
+    padding-top: 76px;
+    font-size: 50px;
 }

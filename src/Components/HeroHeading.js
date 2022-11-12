@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header(props) {
+function HeroHeading(props) {
     return (
         <div>
             <h1 className='header'>{props.name}</h1>
@@ -8,4 +8,4 @@ function Header(props) {
     );
 }
 
-export default Header;
+export default HeroHeading;
