@@ -50,7 +50,7 @@ function Home(props) {
             <section>
                 <RecentPost name="Recent Posts" />
             </section>
-            <section>
+            <section className='footer_wrapper'>
                 <Footer />
             </section>
 

@@ -109,8 +109,8 @@
 }
 .font_37{
     font-size: 37.5px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 .font_16{
     font-size: 16.67px;

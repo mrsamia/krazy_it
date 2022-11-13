@@ -1,0 +1,32 @@
+.footer_wrapper{
+    background-color: #313131;
+    padding-top: 167px;
+    padding-bottom: 216px;
+}
+.footer-items-container {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-items-container li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-items-container li a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+.about-wrapper{
+    
+}
+.service-wrapper{
+    padding-left: 104px;
+}
+.social-wrapper{
+
+}
+.pb_40{
+    padding-bottom: 40px;
+}
