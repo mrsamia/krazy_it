@@ -2,7 +2,10 @@
     background-color: #EAAD00;
     height: 121px;
 }
-
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  
+    color: rgb(9, 167, 9);
+}
 .logo {
     width: 212px;
     height: 56px;

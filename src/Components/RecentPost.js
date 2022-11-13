@@ -6,7 +6,7 @@ import SubHeading from './SubHeading';
 function RecentPost(props) {
     return (
         <div className='container' style={{ paddingBottom: "100px" }}>
-            <Heading className="heading pt_100" name="Recent Posts" />
+            <Heading className="heading pt_100" name={props.name} />
             <SubHeading className="sub_heading text-center" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
             <PostCard />
         </div>

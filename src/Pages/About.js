@@ -7,7 +7,7 @@ import Subtitle from '../Components/Subtitle';
 function About(props) {
     return (
         <div>
-              <HeroSection/>
+              <HeroSection name="About Us"/>
               <section className='container'>
               <div className='row as'>
                     <div className='col-6'>

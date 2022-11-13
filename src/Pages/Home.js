@@ -16,7 +16,7 @@ function Home(props) {
     return (
         <div >
             <section>
-                <HeroSection />
+                <HeroSection  name="First I Wanted to be a veterinarian" />
             </section>
             <section className='container'>
                 <div className='row as'>
@@ -48,7 +48,7 @@ function Home(props) {
                 <HaDeVa />
             </section>
             <section>
-                <RecentPost />
+                <RecentPost name="Recent Posts" />
             </section>
             <section>
                 <Footer />
