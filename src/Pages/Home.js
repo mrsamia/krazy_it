@@ -8,11 +8,12 @@ import SubHeading from '../Components/SubHeading';
 import HeroSection from '../Components/HeroSection';
 import Card from '../Components/Card';
 import CardMapping from '../Components/CardMapping';
+import TeamCard from '../Components/TeamCard';
 
 function Home(props) {
     return (
         <div >
-            <section className='HeroSectionWrapper'>
+            <section>
                <HeroSection/>
             </section>
             <section className='container'>
@@ -31,8 +32,14 @@ function Home(props) {
                 <div className='container'>
                     <Heading className="white_heading pt_100" name="Title Here" />
                     <SubHeading className="white_sub_heading text-center" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
-                  <Card/>
-                  <CardMapping/>
+                    <CardMapping/>
+                </div>
+            </section>
+            <section>
+                <div className='container'>
+                <Heading className="black_heading pt_100" name="The vetcare team" />
+                <SubHeading className="black_sub_heading text-center" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
+                <TeamCard/>
                 </div>
             </section>
         </div>
