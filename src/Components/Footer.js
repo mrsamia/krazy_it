@@ -25,16 +25,16 @@ function Footer(props) {
                         <div className='header font_37 text-white d-flex justify-content-end'>Title here</div>
                         <div className='font_25 text-white'> Lorem Ipsum available, but the majorit </div>
                         <div>
-                    <div className='d-flex justify-content-end'>
-                        <Icon img={require("../images/Instagram.png")} />
-                        <Icon img={require("../images/Facebook.png")} />
-                        <Icon img={require("../images/Twitter.png")} />
-                        <Icon img={require("../images/WhatsApp.png")} />
+                            <div className='d-flex justify-content-end'>
+                                <Icon img={require("../images/Instagram.png")} />
+                                <Icon img={require("../images/Facebook.png")} />
+                                <Icon img={require("../images/Twitter.png")} />
+                                <Icon img={require("../images/WhatsApp.png")} />
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                    </div>
-                   
-                    
+
+
                 </div>
             </div>
         </div>

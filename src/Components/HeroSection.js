@@ -10,7 +10,7 @@ function HeroSection(props) {
             <div className='container'>
                 <div className='row d-flex justify-content-center align-items-center'>
                     <div className='col-6'>
-                        <HeroHeading name={props.name}/>
+                        <HeroHeading name={props.name} />
                         <Subtitle className="Sub_Title text-white" content="Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words. " />
                         <div className='d-flex '>
                             <FilledButton name="Contact Us" />

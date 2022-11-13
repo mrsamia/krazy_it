@@ -21,7 +21,7 @@ function TeamCard(props) {
                     })
                 }
             </div>
-            
+
         </div>
     );
 }

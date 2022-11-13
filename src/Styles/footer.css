@@ -1,8 +1,9 @@
-.footer_wrapper{
+.footer_wrapper {
     background-color: #313131;
     padding-top: 167px;
     padding-bottom: 216px;
 }
+
 .footer-items-container {
     margin: 0;
     padding: 0;
@@ -19,9 +20,11 @@
     font-size: 25px;
     text-decoration: none;
 }
-.service-wrapper{
+
+.service-wrapper {
     padding-left: 104px;
 }
-.pb_40{
+
+.pb_40 {
     padding-bottom: 40px;
 }

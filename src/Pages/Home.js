@@ -16,7 +16,7 @@ function Home(props) {
     return (
         <div >
             <section>
-                <HeroSection  name="First I Wanted to be a veterinarian" />
+                <HeroSection name="First I Wanted to be a veterinarian" />
             </section>
             <section className='container'>
                 <div className='row as'>

@@ -2,10 +2,13 @@
     background-color: #EAAD00;
     height: 121px;
 }
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-  
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+
     color: rgb(9, 167, 9);
 }
+
 .logo {
     width: 212px;
     height: 56px;
@@ -15,7 +18,7 @@
 .navText {
     color: white;
     font-size: 29.17px;
-    padding: 0px 74px;
+    padding: 0px 30px;
 }
 
 .search {
@@ -69,77 +72,89 @@
     width: 762px;
     margin-left: 250px;
     font-size: 33.33px;
-    padding-bottom: 100px;  
+    padding-bottom: 100px;
 }
 
-.card{
+.card {
     width: 362px;
     border: none;
 }
-.card_img{
+
+.card_img {
     width: fit-content;
     height: 353px;
-   
+
 }
-.card_body{
+
+.card_body {
     background-color: #FFC400;
 }
-.card_title{
+
+.card_title {
     font-size: 37.5px;
     text-align: center;
     color: white;
     padding-top: 50px;
     padding-bottom: 25px;
 }
-.card_text{
+
+.card_text {
     font-size: 25px;
     text-align: center;
     color: white;
     padding-bottom: 100px;
 }
-.font_25{
+
+.font_25 {
     font-size: 25px;
 }
 
-.team_card_title{
+.team_card_title {
     font-size: 29.17px;
     padding-top: 50px;
     padding-bottom: 20px;
 
 }
-.font_37{
+
+.font_37 {
     font-size: 37.5px;
-    /* display: flex;
-    justify-content: center; */
 }
-.font_16{
+
+.font_16 {
     font-size: 16.67px;
     color: #00BFCB;
 }
-.padTB_30{
+
+.padTB_30 {
     padding: 15px 30px;
 }
-.padRL_30{
+
+.padRL_30 {
     padding: 0px 30px;
 }
-.pl_35{
+
+.pl_35 {
     padding-left: 35px;
 }
-.pt_100{
+
+.pt_100 {
     padding-top: 101px;
     text-align: center;
 }
-.pb_100{
-padding-bottom: 100px;
+
+.pb_100 {
+    padding-bottom: 100px;
 }
-.cardBorder{
+
+.cardBorder {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.social-icon{
+
+.social-icon {
     background-color: #FFC400;
     height: 44px;
     width: 44px;
     border-radius: 50%;
     padding: 9px;
-   
+
 }
