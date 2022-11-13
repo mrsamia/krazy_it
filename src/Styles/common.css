@@ -30,15 +30,8 @@
     font-size: 66.67px;
 }
 
-.white_Sub_Title {
+.Sub_Title {
     font-size: 29.17px;
-    color: white;
-    padding: 50px 0px;
-}
-
-.black_sub_title {
-    font-size: 29.17px;
-    color: black;
     padding: 50px 0px;
 }
 
@@ -64,41 +57,26 @@
     border-radius: 7px;
 }
 
-.white_heading {
+.heading {
     font-size: 75px;
-    color: white;
     padding-bottom: 50px;
 }
 
-.black_heading {
-    font-size: 75px;
-    color: black;
-    padding-bottom: 50px;
-}
-
-.white_sub_heading {
+.sub_heading {
     width: 762px;
     margin-left: 250px;
     font-size: 33.33px;
-    color: white;
-    padding-bottom: 100px;
-  
+    padding-bottom: 100px;  
 }
 
-.black_sub_heading {
-    width: 762px;
-    margin-left: 250px;
-    font-size: 33.33px;
-    color: black;
-    padding-bottom: 100px;
-}
 .card{
-    width: 332px;
+    width: 362px;
     border: none;
 }
 .card_img{
-    width: 342px;
+    width: fit-content;
     height: 353px;
+   
 }
 .card_body{
     background-color: #FFC400;
@@ -114,20 +92,33 @@
     font-size: 25px;
     text-align: center;
     color: white;
+    padding-bottom: 100px;
 }
-.team_card_body{
-
-}
-.team_card_title{
-    font-size: 37.5px;
-    text-align: center;
-    color: black;
-    padding-top: 50px;
-    padding-bottom: 25px;
-
-}
-.team_card_text{
+.font_25{
     font-size: 25px;
-    text-align: center;
-    color: black;
+}
+
+.team_card_title{
+    font-size: 29.17px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+.font_37{
+    font-size: 37.5px;
+    display: flex;
+    justify-content: center;
+}
+.font_16{
+    font-size: 16.67px;
+    color: #00BFCB;
+}
+.padTB_30{
+    padding: 15px 30px;
+}
+.padRL_30{
+    padding: 0px 30px;
+}
+.cardBorder{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

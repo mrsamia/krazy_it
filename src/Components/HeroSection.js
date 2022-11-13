@@ -11,7 +11,7 @@ function HeroSection(props) {
                 <div className='row'>
                     <div className='col-6'>
                         <HeroHeading name="First I Wanted to be a veterinarian" />
-                        <Subtitle className="white_Sub_Title" content="Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words. " />
+                        <Subtitle className="Sub_Title text-white" content="Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words. " />
                         <div className='d-flex '>
                             <FilledButton name="Contact Us" />
                             <div className='pl_35'>

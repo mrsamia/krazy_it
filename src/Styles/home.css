@@ -26,3 +26,12 @@
     padding-top: 101px;
     text-align: center;
 }
+.bg{
+    background-image: Url("../images/img-12.png");
+    padding: 165px 0px;
+}
+.icon{
+    padding-bottom: 58px;
+    display: flex;
+    justify-content: center;
+}

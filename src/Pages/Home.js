@@ -6,21 +6,23 @@ import OutlineButton from '../Components/OutlineButton';
 import Heading from '../Components/Heading';
 import SubHeading from '../Components/SubHeading';
 import HeroSection from '../Components/HeroSection';
-import Card from '../Components/Card';
 import CardMapping from '../Components/CardMapping';
 import TeamCard from '../Components/TeamCard';
+import HaDeVa from '../Components/HaDeVa';
+import Footer from '../Components/Footer';
+import RecentPost from '../Components/RecentPost';
 
 function Home(props) {
     return (
         <div >
             <section>
-               <HeroSection/>
+                <HeroSection />
             </section>
             <section className='container'>
                 <div className='row as'>
                     <div className='col-6'>
                         <h2 className='a'>As a veterinarian and <br></br>lover of animals.</h2>
-                        <Subtitle className='black_sub_title' content="Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words." />
+                        <Subtitle className='Sub_Title' content="Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words." />
                         <OutlineButton name="Our Service" />
                     </div>
                     <div className='col-6 d-flex justify-content-end'>
@@ -30,18 +32,28 @@ function Home(props) {
             </section>
             <section className='sectionWrapper'>
                 <div className='container'>
-                    <Heading className="white_heading pt_100" name="Title Here" />
-                    <SubHeading className="white_sub_heading text-center" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
-                    <CardMapping/>
+                    <Heading className="heading text-white pt_100" name="Title Here" />
+                    <SubHeading className="sub_heading text-center text-white" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
+                    <CardMapping />
                 </div>
             </section>
             <section>
                 <div className='container'>
-                <Heading className="black_heading pt_100" name="The vetcare team" />
-                <SubHeading className="black_sub_heading text-center" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
-                <TeamCard/>
+                    <Heading className="heading pt_100" name="The vetcare team" />
+                    <SubHeading className="sub_heading text-center" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
+                    <TeamCard />
                 </div>
             </section>
+            <section >
+                <HaDeVa />
+            </section>
+            <section>
+                <RecentPost />
+            </section>
+            <section>
+                <Footer />
+            </section>
+
         </div>
     );
 }

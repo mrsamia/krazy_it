@@ -18,7 +18,7 @@ function Nav(props) {
                         </li> */}
                         <li className="nav-item active navText"><NavLink className="nav-link navText" to="/">Home</NavLink></li>
                         <li className="nav-item active navText"><NavLink  className="nav-link navText" to="/About">About</NavLink></li>
-                        <li className="nav-item active navText"><NavLink  className="nav-link navText" to="/Blog">Blog</NavLink></li>
+                        <li className="nav-item active navText"><NavLink  className="nav-link navText" to="/Blogs">Blog</NavLink></li>
                         <li className="nav-item active navText"><NavLink  className="nav-link navText" to="/Contact">Contact</NavLink></li>
                         {/* <li className="nav-item "> 
                             <a className="nav-link navText" href="#">About</a>

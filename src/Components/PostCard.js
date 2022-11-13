@@ -1,19 +1,20 @@
 import React from 'react';
-import TeamCardData from '../Data/TeamCardData';
-import TeamCardItems from './TeamCardItems';
+import RecentPostData from '../Data/RecentPostData';
+import PostCardItems from './PostCardItems';
 
-function TeamCard(props) {
+function PostCard(props) {
     return (
         <div className='container'>
             <div className='row'>
                 {
-                    TeamCardData.map((e) => {
+                    RecentPostData.map((e) => {
                         return (
                             <div className='col-4'>
-                                <TeamCardItems
+                                <PostCardItems
                                     img={e.img}
-                                    name={e.name}
                                     title={e.title}
+                                    date={e.date}
+                                    content={e.content}
                                 />
                             </div>
                         );
@@ -24,4 +25,4 @@ function TeamCard(props) {
     );
 }
 
-export default TeamCard;
+export default PostCard;
