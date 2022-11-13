@@ -10,22 +10,22 @@ function HaDeVa(props) {
                        <div className='icon'>
                        <img  src={require('../images/icon-1.png')}/>
                        </div>
-                        <p className='font_37 text-white'>+347934</p>
-                        <p className='font_37 text-white'>Happy Clients</p>
+                        <p className='font_37 text-white text-center'>+347934</p>
+                        <p className='font_37 text-white  text-center'>Happy Clients</p>
                     </div>
                     <div className='col-4'>
                        <div className='icon'>
                        <img  src={require('../images/icon-2.png')}/>
                        </div>
-                        <p className='font_37 text-white'>+45382</p>
-                        <p className='font_37 text-white'>Departament</p>
+                        <p className='font_37 text-white  text-center'>+45382</p>
+                        <p className='font_37 text-white  text-center'>Departament</p>
                     </div>
                     <div className='col-4'>
                        <div className='icon'>
                        <img  src={require('../images/icon-3.png')}/>
                        </div>
-                        <p className='font_37 text-white'>+54762</p>
-                        <p className='font_37 text-white'>Vaccinations</p>
+                        <p className='font_37 text-white  text-center'>+54762</p>
+                        <p className='font_37 text-white  text-center'>Vaccinations</p>
                     </div>
                 </div>
             </div>

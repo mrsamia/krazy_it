@@ -1,5 +1,6 @@
 import React from 'react';
 import TeamCardData from '../Data/TeamCardData';
+import Icon from './Icon';
 import TeamCardItems from './TeamCardItems';
 
 function TeamCard(props) {
@@ -20,6 +21,7 @@ function TeamCard(props) {
                     })
                 }
             </div>
+            
         </div>
     );
 }

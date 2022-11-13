@@ -30,15 +30,15 @@ function Home(props) {
                     </div>
                 </div>
             </section>
-            <section className='sectionWrapper'>
-                <div className='container'>
+            <section className='sectionWrapper '>
+                <div className='container '>
                     <Heading className="heading text-white pt_100" name="Title Here" />
                     <SubHeading className="sub_heading text-center text-white" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
                     <CardMapping />
                 </div>
             </section>
             <section>
-                <div className='container'>
+                <div className='container pb_100'>
                     <Heading className="heading pt_100" name="The vetcare team" />
                     <SubHeading className="sub_heading text-center" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
                     <TeamCard />
@@ -50,7 +50,7 @@ function Home(props) {
             <section>
                 <RecentPost name="Recent Posts" />
             </section>
-            <section className='footer_wrapper'>
+            <section>
                 <Footer />
             </section>
 

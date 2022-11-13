@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Components/Footer';
 import HaDeVa from '../Components/HaDeVa';
 import HeroSection from '../Components/HeroSection';
 import OutlineButton from '../Components/OutlineButton';
@@ -21,6 +22,7 @@ function About(props) {
                 </div>
               </section>
               <HaDeVa/>
+              <Footer/>
         </div>
     );
 }

@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 function Nav(props) {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navWrapper ">
+            <nav className="navbar navbar-expand-lg navWrapper fixed-top">
                 <div className='container'>
                <Link to='/'> <img className='logo' src={require ("../images/logo.png")}/></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

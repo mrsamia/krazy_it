@@ -122,6 +122,24 @@
 .padRL_30{
     padding: 0px 30px;
 }
+.pl_35{
+    padding-left: 35px;
+}
+.pt_100{
+    padding-top: 101px;
+    text-align: center;
+}
+.pb_100{
+padding-bottom: 100px;
+}
 .cardBorder{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.social-icon{
+    background-color: #FFC400;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    padding: 9px;
+   
 }

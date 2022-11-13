@@ -11,6 +11,7 @@
 .footer-items-container li {
     text-decoration: none;
     list-style: none;
+    padding: 10px 0px
 }
 
 .footer-items-container li a {
@@ -18,14 +19,8 @@
     font-size: 25px;
     text-decoration: none;
 }
-.about-wrapper{
-    
-}
 .service-wrapper{
     padding-left: 104px;
-}
-.social-wrapper{
-
 }
 .pb_40{
     padding-bottom: 40px;

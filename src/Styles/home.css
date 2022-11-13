@@ -10,9 +10,7 @@
     width: 419px;
     height: 604px;
 }
-.pl_35{
-    padding-left: 35px;
-}
+
 .as{
     padding-top: 140px;
     font-size: 50px;
@@ -22,10 +20,7 @@
     padding-top: 76px;
     font-size: 50px;
 }
-.pt_100{
-    padding-top: 101px;
-    text-align: center;
-}
+
 .bg{
     background-image: Url("../images/img-12.png");
     padding: 165px 0px;

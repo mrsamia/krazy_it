@@ -6,9 +6,9 @@ import Subtitle from './Subtitle';
 
 function HeroSection(props) {
     return (
-        <div className='HeroSectionWrapper'>
+        <div className='HeroSectionWrapper vh-100 '>
             <div className='container'>
-                <div className='row'>
+                <div className='row d-flex justify-content-center align-items-center'>
                     <div className='col-6'>
                         <HeroHeading name={props.name}/>
                         <Subtitle className="Sub_Title text-white" content="Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words. " />
