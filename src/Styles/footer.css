@@ -25,6 +25,15 @@
     padding-left: 104px;
 }
 
-.pb_40 {
-    padding-bottom: 40px;
+.send{
+    height: 65px; 
 }
+.sendIcon{
+    color: white;
+    background-color: #00BFCB;
+    height: 65px;
+    width: 64px;
+}
+.sendIcon:hover, .sendIcon:active, .sendIcon:focus{
+    background-color:#00BFCB!important;
+  }

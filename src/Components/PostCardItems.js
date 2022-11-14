@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function PostCardItems(props) {
     return (
@@ -13,8 +14,8 @@ function PostCardItems(props) {
                     <div className='padTB_30'>
                         <p className="font_16 text-black">{props.content}</p>
                     </div>
-                    <div style={{ paddingBottom: "32px" }}>
-                        <h5 className='font_16 padRL_30'>READ MORE +</h5>
+                    <div style={{ paddingBottom: "32px"}}>
+                       <Link to="#/"style={{textDecoration:"none"}}> <h5 className='font_16 padRL_30' >READ MORE +</h5></Link>
                     </div>
                 </div>
             </div>

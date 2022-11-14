@@ -9,7 +9,7 @@ function HeroSection(props) {
         <div className='HeroSectionWrapper vh-100 '>
             <div className='container'>
                 <div className='row d-flex justify-content-center align-items-center'>
-                    <div className='col-6'>
+                    <div className='col-sm-12 col-lg-6 '>
                         <HeroHeading name={props.name} />
                         <Subtitle className="Sub_Title text-white" content="Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words. " />
                         <div className='d-flex '>
@@ -19,7 +19,7 @@ function HeroSection(props) {
                             </div>
                         </div>
                     </div>
-                    <div className='col-6 d-flex justify-content-end'>
+                    <div className='col-sm-12 col-lg-6  d-flex justify-content-end'>
                         <img className='img_1' src={require('../images/img-1.png')} />
                     </div>
                 </div>

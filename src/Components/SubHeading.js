@@ -2,7 +2,7 @@ import React from 'react';
 
 function SubHeading(props) {
     return (
-        <div>
+        <div className='d-flex justify-content-center'>
             <h3 className={props.className}>{props.name}</h3>
         </div>
     );

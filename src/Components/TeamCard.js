@@ -10,7 +10,7 @@ function TeamCard(props) {
                 {
                     TeamCardData.map((e) => {
                         return (
-                            <div className='col-4'>
+                            <div className='col-sm-12 col-lg-4'>
                                 <TeamCardItems
                                     img={e.img}
                                     name={e.name}

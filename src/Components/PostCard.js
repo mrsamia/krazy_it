@@ -9,7 +9,7 @@ function PostCard(props) {
                 {
                     RecentPostData.map((e) => {
                         return (
-                            <div className='col-4'>
+                            <div className='col-sm-12 col-lg-4'>
                                 <PostCardItems
                                     img={e.img}
                                     title={e.title}

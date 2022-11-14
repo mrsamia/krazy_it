@@ -10,8 +10,9 @@ function CardMapping(props) {
                 {
                     CardData.map((e) => {
                         return (
-                            <div className='col-4'>
+                            <div className='col-sm-12 col-lg-4'>
                                 <Card
+                                    img={e.img}
                                     title={e.title}
                                     text={e.text}
                                 />

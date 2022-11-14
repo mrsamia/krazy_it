@@ -1,35 +1,7 @@
-.navWrapper {
-    background-color: #EAAD00;
-    height: 121px;
+html, body, :root {
+    font-family: 'Poppins', sans-serif;
 }
 
-.navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-
-    color: rgb(9, 167, 9);
-}
-
-.logo {
-    width: 212px;
-    height: 56px;
-
-}
-
-.navText {
-    color: white;
-    font-size: 29.17px;
-    padding: 0px 30px;
-}
-
-.search {
-    width: 274px;
-    height: 51px;
-    font-size: 20px;
-    background-color: #FFC400;
-    color: white !important;
-    border: none;
-    border-radius: none !important;
-}
 
 .hero_header {
     color: white;
@@ -70,7 +42,6 @@
 
 .sub_heading {
     width: 762px;
-    margin-left: 250px;
     font-size: 33.33px;
     padding-bottom: 100px;
 }
@@ -81,9 +52,7 @@
 }
 
 .card_img {
-    width: fit-content;
     height: 353px;
-
 }
 
 .card_body {
@@ -105,15 +74,15 @@
     padding-bottom: 100px;
 }
 
-.font_25 {
-    font-size: 25px;
-}
-
 .team_card_title {
     font-size: 29.17px;
     padding-top: 50px;
     padding-bottom: 20px;
 
+}
+
+.font_25 {
+    font-size: 25px;
 }
 
 .font_37 {
@@ -146,8 +115,12 @@
     padding-bottom: 100px;
 }
 
+.pb_40 {
+    padding-bottom: 40px;
+}
+
 .cardBorder {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.02), 0 6px 36px 0 rgba(0, 0, 0, 0.09);
 }
 
 .social-icon {

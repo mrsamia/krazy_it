@@ -1,0 +1,55 @@
+.navWrapper {
+    background-color: #EAAD00;
+    height: 121px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+
+    color: rgb(9, 167, 9);
+}
+
+.logo {
+    width: 212px;
+    height: 56px;
+    font-size: 20px;
+}
+
+.navText {
+    color: white;
+    font-size: 29.17px;
+    padding: 0px 20px;
+}
+
+.form-control {
+    width: 274px;
+    height: 51px;
+    font-size: 20px;
+    padding-left: 25px;
+    background-color: #FFC400;
+    color: white !important;
+    border: none;
+    border-radius: none !important;
+}
+
+.input-group {
+    padding-left: 50px;
+}
+
+.faSearch {
+    color: white;
+    background-color: #00BFCB;
+    height: 51px;
+    width: 64px;
+
+}
+input::placeholder {
+    color: white !important;
+   
+  }
+  input:hover, input:active, input:focus{
+    background-color:#FFC400!important;
+  }
+  .faSearch:hover, .faSearch:active, .faSearch:focus{
+    background-color:#00BFCB!important;
+  }
