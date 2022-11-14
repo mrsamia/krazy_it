@@ -1,7 +1,8 @@
-html, body, :root {
+html,
+body,
+:root {
     font-family: 'Poppins', sans-serif;
 }
-
 
 .hero_header {
     color: white;

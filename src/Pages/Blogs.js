@@ -21,7 +21,7 @@ function Blogs(props) {
                                 <img src={require('../images/dog-1.png')} />
                             </div>
                             <div className='padTB_30'>
-                                <h3 className='text-white font_37 text-center'><span style={{textDecoration:"line-through"}}>$50</span>  $30</h3>
+                                <h3 className='text-white font_37 text-center'><span style={{ textDecoration: "line-through" }}>$50</span>  $30</h3>
                             </div>
                             <div className='d-flex justify-content-center'>
                                 <FilledButton name="Buy Now" />
@@ -32,7 +32,7 @@ function Blogs(props) {
                                 <img src={require('../images/dog-2.png')} />
                             </div>
                             <div className='padTB_30'>
-                                <h3 className='text-white font_37 text-center'><span style={{textDecoration:"line-through"}}>$40</span>  $25</h3>
+                                <h3 className='text-white font_37 text-center'><span style={{ textDecoration: "line-through" }}>$40</span>  $25</h3>
                             </div>
                             <div className='d-flex justify-content-center'>
                                 <FilledButton name="Buy Now" />
@@ -43,7 +43,7 @@ function Blogs(props) {
                                 <img src={require('../images/dog-3.png')} />
                             </div>
                             <div className='padTB_30'>
-                                <h3 className='text-white font_37 text-center'><span style={{textDecoration:"line-through"}}>$45</span>  $20</h3>
+                                <h3 className='text-white font_37 text-center'><span style={{ textDecoration: "line-through" }}>$45</span>  $20</h3>
                             </div>
                             <div className='d-flex justify-content-center'>
                                 <FilledButton name="Buy Now" />
@@ -52,7 +52,7 @@ function Blogs(props) {
                     </div>
                 </div>
             </section>
-            <Footer/>
+            <Footer />
         </div>
     );
 }

@@ -43,16 +43,11 @@ function Home(props) {
                     <SubHeading className="sub_heading text-center" name=" Lorem Ipsum available, but the majority have suffered alteration in some form. " />
                     <TeamCard />
                 </div>
-            </section>
-            <section >
+            </section>      
                 <HaDeVa />
-            </section>
-            <section>
                 <RecentPost name="Recent Posts" />
-            </section>
-            <section>
                 <Footer />
-            </section>
+        
 
         </div>
     );

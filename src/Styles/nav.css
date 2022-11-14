@@ -43,13 +43,20 @@
     width: 64px;
 
 }
+
 input::placeholder {
     color: white !important;
-   
-  }
-  input:hover, input:active, input:focus{
-    background-color:#FFC400!important;
-  }
-  .faSearch:hover, .faSearch:active, .faSearch:focus{
-    background-color:#00BFCB!important;
-  }
+
+}
+
+input:hover,
+input:active,
+input:focus {
+    background-color: #FFC400 !important;
+}
+
+.faSearch:hover,
+.faSearch:active,
+.faSearch:focus {
+    background-color: #00BFCB !important;
+}

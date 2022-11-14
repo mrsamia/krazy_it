@@ -23,7 +23,7 @@ function Footer(props) {
                         </div>
                     </div>
 
-                   
+
 
                     <div className='social-wrapper'>
                         <div className='header font_37 text-white d-flex justify-content-end'>Title here</div>
@@ -33,7 +33,7 @@ function Footer(props) {
                             <input type="text" className="form-control send " />
                             <div className="input-group-append">
                                 <button className="btn sendIcon" type="button">
-                                    <SendIcon />     
+                                    <SendIcon />
                                 </button>
                             </div>
                         </div>
